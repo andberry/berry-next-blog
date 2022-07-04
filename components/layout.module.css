@@ -1,0 +1,30 @@
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.header {
+  background: #ccc;
+  padding: 1rem 0px;
+}
+
+.header__inner {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0px;
+}
+
+.main {
+  padding: 6rem 0px;
+}
