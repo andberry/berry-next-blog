@@ -9,7 +9,7 @@ export default function Article( { articleData }) {
     return (
         <Layout fixed>
             <Head>
-                <title>{ articleData.data.title }</title>
+                <title>{ articleData.data.title } | Berry Next Blog</title>
             </Head>
 
             <h1 className={styleUtils.heading2Xl}>{ articleData.data.title }</h1>
